@@ -14,3 +14,7 @@ produce karyotype files from reference fasta with [fasta2kar.sh](https://github.
 optionally, add a column in the karyotype file that has the colour you want each block to have. nice to have two different colours if you want to show pairwise genome alignment
 
 the [circos config](https://github.com/lpotgieter/circos/blob/main/circos_config.config) is the most challenging to produce. this worked on [circos-0.69-9](https://circos.ca) 
+
+
+to run circos
+`circos -conf circos_conf.conf` 
